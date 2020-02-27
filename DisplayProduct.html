@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Separate Product </title>
+        <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+        <script language="JavaScript" type="text/javascript">
+            if (location.search)
+            {
+                var image_filename = location.search.substring(1)
+                //document.write('<IMG SRC="' + image_filename + '">')
+                //document.write('<IMG "STYLE="position:absolute TOP:200px LEFT:300px" SRC="' + image_filename + '">')
+                   document.write('<a-scene> <a-sky id="background-img" src="' + image_filename + '"></a-sky></a-scene>');
+
+            }
+        </script>
+
+       
+
+    </head>
+    <body>
+        <a href="indexcornew.html">Back </a>
+
+    </body>
+</html>
